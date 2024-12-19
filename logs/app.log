@@ -1,0 +1,180 @@
+2024-12-19T09:33:19.737+07:00  INFO 17036 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22.0.1 with PID 17036 (D:\WORK\contoh\demo\demo - Salin\target\classes started by user in D:\WORK\contoh\demo\demo - Salin)
+2024-12-19T09:33:19.758+07:00  INFO 17036 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T09:33:25.705+07:00  INFO 17036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T09:33:25.707+07:00  INFO 17036 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T09:33:25.839+07:00  INFO 17036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T09:33:27.433+07:00  INFO 17036 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T09:33:27.621+07:00  INFO 17036 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T09:33:27.737+07:00  INFO 17036 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T09:33:28.739+07:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T09:33:29.076+07:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@295d1f34
+2024-12-19T09:33:29.080+07:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T09:33:29.224+07:00  INFO 17036 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T09:33:31.179+07:00  INFO 17036 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T09:33:36.374+07:00  INFO 17036 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 17.854 seconds (process running for 20.109)
+2024-12-19T09:33:37.284+07:00  INFO 17036 --- [RMI TCP Connection(2)-10.37.96.93] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T09:34:19.462+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received alert message: "Perhatian: Sistem akan down untuk pemeliharaan."
+2024-12-19T09:34:33.579+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: "Anda memiliki pesan baru di kotak masuk.111"
+2024-12-19T09:34:52.392+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: "Anda memiliki pesan baru di kotak masuk.111"
+2024-12-19T09:35:05.636+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: "Anda memiliki pesan baru di kotak masuk."
+2024-12-19T09:35:17.837+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received promo message: Diskon 50% untuk semua produk!
+2024-12-19T09:35:17.839+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received promo message: Beli 1 gratis 1 untuk produk tertentu!
+2024-12-19T09:35:17.841+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received promo message: promoosi
+2024-12-19T09:35:17.847+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: Anda memiliki pesan baru di kotak masuk.
+2024-12-19T09:35:17.850+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: Jangan lewatkan penawaran spesial hari ini!
+2024-12-19T09:35:17.852+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received notification: notif
+2024-12-19T09:35:17.853+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received alert message: Perhatian: Sistem akan down untuk pemeliharaan.
+2024-12-19T09:35:17.855+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received alert message: Pembaruan keamanan akan diterapkan malam ini.
+2024-12-19T09:35:17.857+07:00  INFO 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received alert message: alertt
+2024-12-19T09:50:46.738+07:00 ERROR 17036 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Execution of Rabbit message listener failed, and the error handler threw an exception
+
+org.springframework.amqp.AmqpRejectAndDontRequeueException: Error Handler converted exception to fatal
+	at org.springframework.amqp.rabbit.listener.ConditionalRejectingErrorHandler.handleError(ConditionalRejectingErrorHandler.java:148) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeErrorHandler(AbstractMessageListenerContainer.java:1475) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.handleListenerException(AbstractMessageListenerContainer.java:1768) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1549) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.14.1.jar:1.14.1]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1086) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1022) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1425) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Failed to convert message
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:157) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1682) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1604) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1592) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1583) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1528) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	... 8 common frames omitted
+Caused by: org.springframework.amqp.support.converter.MessageConversionException: Failed to convert Message content
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:367) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:321) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.fromMessage(AbstractJackson2MessageConverter.java:304) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:350) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter$MessagingMessageConverterAdapter.extractPayload(MessagingMessageListenerAdapter.java:378) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.support.converter.MessagingMessageConverter.fromMessage(MessagingMessageConverter.java:132) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.toMessagingMessage(MessagingMessageListenerAdapter.java:251) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:147) ~[spring-rabbit-3.2.0.jar:3.2.0]
+	... 13 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.18.1.jar:2.18.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5008) ~[jackson-databind-2.18.1.jar:2.18.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4910) ~[jackson-databind-2.18.1.jar:2.18.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3860) ~[jackson-databind-2.18.1.jar:2.18.1]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertBytesToObject(AbstractJackson2MessageConverter.java:428) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.convertContent(AbstractJackson2MessageConverter.java:395) ~[spring-amqp-3.2.0.jar:3.2.0]
+	at org.springframework.amqp.support.converter.AbstractJackson2MessageConverter.doFromMessage(AbstractJackson2MessageConverter.java:364) ~[spring-amqp-3.2.0.jar:3.2.0]
+	... 20 common frames omitted
+
+2024-12-19T09:55:21.700+07:00  INFO 17036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T09:55:21.718+07:00  INFO 17036 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T09:59:42.657+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22.0.1 with PID 10348 (D:\WORK\contoh\demo\demo - Salin\target\classes started by user in D:\WORK\contoh\demo\demo - Salin)
+2024-12-19T09:59:42.661+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T09:59:46.119+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T09:59:46.119+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T09:59:46.178+07:00  INFO 10348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T09:59:46.827+07:00  INFO 10348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T09:59:46.905+07:00  INFO 10348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T09:59:46.946+07:00  INFO 10348 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T09:59:47.319+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T09:59:47.533+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cbade52
+2024-12-19T09:59:47.544+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T09:59:47.666+07:00  INFO 10348 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T09:59:48.632+07:00  INFO 10348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T09:59:51.442+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 9.716 seconds (process running for 11.252)
+2024-12-19T09:59:52.034+07:00  INFO 10348 --- [RMI TCP Connection(3)-10.37.96.93] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T10:00:49.057+07:00  INFO 10348 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received User message: CREATE:Users{id=21, firstName='qqqqq', lastName= 'qqqqqqqq', email='qqqqqqqqq@gmail.com}
+2024-12-19T10:01:24.878+07:00  INFO 10348 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received User message: UPDATE:Users{id=21, firstName='daniii1', lastName= 'dani1', email='dani11@gmail.com}
+2024-12-19T10:02:56.831+07:00  INFO 10348 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T10:02:56.847+07:00  INFO 10348 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-19T10:02:57.041+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22.0.1 with PID 10348 (D:\WORK\contoh\demo\demo - Salin\target\classes started by user in D:\WORK\contoh\demo\demo - Salin)
+2024-12-19T10:02:57.042+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T10:02:57.744+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T10:02:57.745+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T10:02:57.774+07:00  INFO 10348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T10:02:58.021+07:00  INFO 10348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T10:02:58.024+07:00  INFO 10348 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T10:02:58.037+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-19T10:02:58.047+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dc38c6e
+2024-12-19T10:02:58.047+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-19T10:02:58.049+07:00  INFO 10348 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T10:02:58.110+07:00  INFO 10348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T10:02:59.867+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.894 seconds (process running for 199.678)
+2024-12-19T10:03:01.008+07:00  INFO 10348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T10:03:01.903+07:00  INFO 10348 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-19T10:03:01.909+07:00  INFO 10348 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-12-19T10:03:02.044+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22.0.1 with PID 10348 (D:\WORK\contoh\demo\demo - Salin\target\classes started by user in D:\WORK\contoh\demo\demo - Salin)
+2024-12-19T10:03:02.045+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T10:03:02.633+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T10:03:02.634+07:00  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T10:03:02.656+07:00  INFO 10348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T10:03:02.873+07:00  INFO 10348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T10:03:02.876+07:00  INFO 10348 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T10:03:02.885+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-12-19T10:03:02.891+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49ffa3dd
+2024-12-19T10:03:02.892+07:00  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-12-19T10:03:02.893+07:00  INFO 10348 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T10:03:02.931+07:00  INFO 10348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T10:03:04.016+07:00  INFO 10348 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.013 seconds (process running for 203.826)
+2024-12-19T10:03:10.373+07:00  INFO 10348 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T10:03:10.427+07:00  INFO 10348 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received User message: UPDATE:Users{id=20, firstName='daniii1', lastName= 'dani1', email='dani11@gmail.com}
+2024-12-19T10:03:39.401+07:00  INFO 10348 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received User message: DELETE:20
+2024-12-19T10:04:01.433+07:00  INFO 10348 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.e.d.messageconsumer.MessageConsumer    : Received User message: DELETE:21
+2024-12-19T10:12:50.861+07:00  INFO 10348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-12-19T10:12:50.865+07:00  INFO 10348 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-12-19T10:32:31.912+07:00  INFO 5968 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 22.0.1 with PID 5968 (D:\WORK\contoh\demo\demo - Salin\target\classes started by user in D:\WORK\contoh\demo\demo - Salin)
+2024-12-19T10:32:31.915+07:00  INFO 5968 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-19T10:32:34.640+07:00  INFO 5968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19T10:32:34.641+07:00  INFO 5968 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-19T10:32:34.711+07:00  INFO 5968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19T10:32:35.435+07:00  INFO 5968 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-19T10:32:35.514+07:00  INFO 5968 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-19T10:32:35.558+07:00  INFO 5968 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-19T10:32:35.958+07:00  INFO 5968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19T10:32:36.154+07:00  INFO 5968 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a0a50a
+2024-12-19T10:32:36.155+07:00  INFO 5968 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19T10:32:36.282+07:00  INFO 5968 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-19T10:32:37.205+07:00  INFO 5968 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-19T10:32:39.846+07:00  INFO 5968 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 8.649 seconds (process running for 10.251)
+2024-12-19T10:32:40.403+07:00  INFO 5968 --- [RMI TCP Connection(4)-10.37.96.93] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19T10:34:42.080+07:00  INFO 5968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19T10:34:42.090+07:00  INFO 5968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
